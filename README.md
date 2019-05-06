@@ -5,6 +5,6 @@ To view this, clone the repo:
 
     > git clone git@github.com:pchittum/bike-app-lwc-playground.git
 
-Then simply upload the root project folder to a new empty LWC [playground](https://developer.salesforce.com/docs/component-library/tools/playground). (One note, I've not actually tested this with git project files in place, so, well, this may have unexpected results.)
+Then simply upload the zip file bike-app-take-2.zip to a new empty LWC [playground](https://developer.salesforce.com/docs/component-library/tools/playground). The unzipped file artifacts are here unzipped to make it easier to look at the actual files. 
 
 You can find the LWC playground at https://developer.salesforce.com/docs/component-library/tools/playground
