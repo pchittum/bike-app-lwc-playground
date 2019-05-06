@@ -1,0 +1,16 @@
+<template>
+    <p class="slds-text-heading_medium">Play With Bike</p>
+
+    <div>
+        <lightning-input label="Front Gear Teeth" read-only value={currentFrontGear}></lightning-input>
+        <lightning-button-icon data-location="front" data-direction="1.0" onclick={handleShift} icon-name="utility:up" alternative-text="Shift Up" class="slds-m-left_xx-small"></lightning-button-icon>
+        <lightning-button-icon data-location="front" data-direction="-1.0" onclick={handleShift} icon-name="utility:down" alternative-text="Shift Down" class="slds-m-left_xx-small"></lightning-button-icon>
+    </div>
+    <div>
+        <lightning-input label="Rear Gear Teeth" read-only value={currentRearGear}></lightning-input>
+        <lightning-button-icon data-location="rear" data-direction="1.0" onclick={handleShift} icon-name="utility:up" alternative-text="Shift Up" class="slds-m-left_xx-small"></lightning-button-icon>
+        <lightning-button-icon data-location="rear" data-direction="-1.0" onclick={handleShift} icon-name="utility:down" alternative-text="Shift Down" class="slds-m-left_xx-small"></lightning-button-icon>
+    </div>
+    <lightning-input label="Current Gear Ratio" read-only value={currentGearRatio}></lightning-input>
+
+</template>
